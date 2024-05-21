@@ -7,10 +7,12 @@ IdUsuario int primary key,
 NomeUsuario varchar(45),
 DataNascimento date
 );
+
 create table tbEstado(
 Id int primary key,
 Uf varchar (2)
 );
+
 create table tbCliente(
 CodigoCli smallint primary key,
 Nome varchar(50),

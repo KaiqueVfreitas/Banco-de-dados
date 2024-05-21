@@ -1,0 +1,47 @@
+/* styles.css */
+
+/* Estilos para o container principal */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Estilos para os cards */
+.card {
+    background-color: #f8f9fa; /* Cor de fundo padrão */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Estilos para os títulos dos cards */
+.card h2 {
+    color: #333;
+}
+
+/* Estilos para o título principal */
+h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Estilos específicos para o card do produto mais vendido */
+.card-produto-mais-vendido {
+    background-color: #007bff; /* Azul para o produto mais vendido */
+}
+
+/* Estilos específicos para o card do produto menos vendido */
+.card-produto-menos-vendido {
+    background-color: #dc3545; /* Vermelho para o produto menos vendido */
+}
+
+/* Estilos de texto para os cards específicos */
+.card-produto-mais-vendido h2 {
+    color: #fff; /* Texto branco para o card do produto mais vendido */
+}
+
+.card-produto-menos-vendido h2 {
+    color: #fff; /* Texto branco para o card do produto menos vendido */
+}
