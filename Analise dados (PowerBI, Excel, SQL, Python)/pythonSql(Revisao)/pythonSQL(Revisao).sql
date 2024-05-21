@@ -7,7 +7,7 @@ CREATE TABLE Vendas (
     cliente varchar(50) not null,
     produto varchar(50) not null,
     data_venda date not null,
-    preco decimal(6, 2) not null,
+    preco decimal(11, 2) not null,
     quantidade int not null
 );
 

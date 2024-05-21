@@ -1,5 +1,6 @@
 import pyodbc
 from datetime import datetime
+import re
 
 dados_conexao = (
     "Driver={SQL Server};"
@@ -16,6 +17,9 @@ def converter_data(data):
     return datetime.strptime(data, '%d/%m/%Y').strftime('%Y-%m-%d')
 
 def validar_data(data):
+    data = data.strip()
+    if not re.match(r'^\d{2}/\d{2}/\d{4}$', data):
+        raise ValueError("Formato de data inválido. Use DD/MM/AAAA.")
     data_formatada = datetime.strptime(data, '%d/%m/%Y')
     data_minima = datetime(2019, 10, 10)
     data_maxima = datetime(2024, 1, 1)
@@ -27,7 +31,7 @@ def cadastrar_produto(cliente=None):
 
     while True:
         produto = input("Produto comprado: ")
-        data_venda = input("Data da venda (dd/mm/yyyy): ")
+        data_venda = input("Data da venda (dd/mm/yyyy): ").strip()
         if validar_data(data_venda):
             data_venda_formatada = converter_data(data_venda)
             break
