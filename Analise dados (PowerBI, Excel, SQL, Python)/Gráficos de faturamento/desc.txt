@@ -1,0 +1,12 @@
+Abaixo duas imagens uma mostra como minha mente pensou e projetou o deisgner do dashboard para a analise de dados e outra a execução do projeto graças a minha busca já concluida do aprimoramento profissional na area de estetica dos dashboards criados
+
+Além de aplicar conceitos de banco de dados como normalização e modelagem, principalmente levar em consideração que existe dois tipos de tabela: 
+Tabela fato, vasta quantidade de dados e representa eventos
+Tabela dimensão, tabela menor que representa caracteristicas de produtos e pessoas 
+
+Tabelas de fato é bom evitar colocar muitas caracteristicas por questão de otimização no power bi e evitar a confusão do power BI na hora de criar funcionalidades 
+
+A ferramenta central do Power BI na hora de fazer a modelagem Power Query, com ele facilitamos a leitura dos dados e melhoramos a leitura para tomada de decisões 
+
+Neste arquivo CSV que baixei tinha informaçoes tudo juntas que transformei pelo excel em duas. Na hora de passar para o Power BI inicialmente tinha com uma quantidade desarcebada de informações e apos a modelagem e normalização, reduziu drasticamente e ainda melhor, não afetou o arquivo excel que apenas registra as informaçoes.
+
