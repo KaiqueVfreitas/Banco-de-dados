@@ -1,0 +1,35 @@
+Projeto para Desenvolvimento de Site Financeiro
+
+Estou buscando desenvolvedores capacitados para criar um site financeiro. Este site oferecerá as seguintes funcionalidades:
+
+1. Plotagem em Gráfico de Indicador Próprio:
+- O indicador será calculado com dados fornecidos por API.
+- Já possuo a lógica do cálculo do indicador, mas o desenvolvedor precisará transcrevê-la para o código.
+- Será necessário encontrar uma API com dados das ações que compõem o principal índice do Brasil, denominado "IBOVESPA", em tempo real.
+- A API deve fornecer dados como: "Último preço", "Abertura", "Fechamento Anterior" e Volume por nível de preço do intraday.
+- O cálculo do indicador "Volume Weighted Average Price" (VWAP) deve ser realizado pelo código ou fornecido pela API, pois é essencial para a construção da lógica do indicador próprio.
+
+2. Interface de Usuário:
+- O site deve ser apresentado de forma clara e facilmente acessível.
+- Desenvolvido para um nicho específico, com dados combinados e plotados em variações percentuais.
+
+3. Exportação de Dados:
+- O site deve permitir a exportação dos dados do dia em formato Excel ou CSV.
+- Facilitará que os usuários realizem visualizações e estudos individuais de como o indicador se comportou.
+
+4. Registro e Login de Usuário:
+- Funcionalidade para os usuários criarem uma conta, fazerem login e receberem notificações.
+
+5. Integração com Google Ads:
+- Para monetização do site.
+
+6. Layout e Design:
+- Possuo sugestões de layout e referências visuais que deverão ser aplicadas no site.
+- Precisarei de ajuda para encontrar APIs gratuitas com baixa latência.
+
+7. Manutenção e Suporte:
+- Não tenho experiência em administração de servidores e manutenção de sites. Precisarei que o desenvolver me instrua como funciona e como administrar.
+- Necessito de um desenvolvedor que possa resolver possíveis bugs iniciais e realizar futuras atualizações, com preços a combinar através desta plataforma.
+
+8. Integração com Redes Sociais (Diferencial):
+- Experiência em integrar o site com redes sociais será considerada um diferencial.
