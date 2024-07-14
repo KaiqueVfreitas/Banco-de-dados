@@ -356,14 +356,24 @@ select cpf, nome, sexo, endereco, email from tbCliente where sexo = 'M';
 	Exercicio 10, fazer alterações nas tabelas do 
     banco de dados desenvolvido no exercicio 9
 */ 
--- Apagando informações no banco de dados 
-delete from tbTelefone_Cliente where telefone = 12345678911;
-delete from tbConta where numConta = 9878;
--- Alterando informações no banco de dados
+select * from tbCliente;
+SELECT saldo FROM tbConta WHERE numConta = '9876';
+
+describe tbConta;
+delete from tbTelefone_Cliente where cpf = 12345678911;
 update tbConta set tipoConta = 2  where numConta = 9879;
 update tbCliente set email = 'Astro@Escola.com' where nome = 'Monica';
-update tbCliente set email = 'enildo@escola.com' where  nome = 'Enildo';
+-- O codigo correto seria: SELECT saldo FROM tbConta WHERE numConta = '9876'; contudo o worbench nao deixou fazer, portanto calculei manualmente
 update tbConta set saldo = '6148.42' where numConta = '9876';
-update tbConta set saldo = saldo - 30;
--- Seleção de tados
 select nome, email, endereco from tbCliente where nome = 'Monica';
+update tbCliente set email = 'enildo@escola.com' where  nome = 'Enildo';
+update tbConta set saldo = saldo - 30;
+-- Para conseguir fazer o delete da conta 9878 deve se retirar ela como chave estrangeira na tbHistorico
+delete from tbHistorico where numConta = 9878;
+delete from tbConta where numConta = 9878;
+
+
+
+
+
+
