@@ -1,0 +1,1 @@
+⚠️ Atenção: As tecnologias de banco de dados que eu conheço estão na pasta. A pasta 'Desenvolvimento de Banco de Dados' contém o aprendizado adquirido na Etec. As demais pastas contêm estudos realizados de forma autônoma.
